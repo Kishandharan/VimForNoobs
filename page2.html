@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+	<title>Vim For Noobs | Getting Started</title>
+	<style type="text/css">
+		*{
+			font-family: "JetBrains Mono";
+		}
+		.sidebar{
+			background-color: orangered;
+			position: fixed;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			width: 360px;
+			padding-left: 10px;
+		}
+		.sidebar *{
+			font-size: 25px;
+			color: white;
+		}
+		body{
+			background-color: black;
+		}
+		.main{
+			margin-left: 380px;
+		}
+		.main *{
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<div class="sidebar">
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="page1.html">Installation</a></li>
+			<li>Getting Started <-</li>
+			<li><a href="page3.html">Vim Modes</a></li>
+			<li><a href="page4.html">The Normal Mode</a></li>
+			<li><a href="page5.html">The Insert Mode</a></li>
+			<li><a href="page6.html">The Command Mode</a></li>
+			<li><a href="page7.html">The Visual Mode</a></li>
+		</ul>
+	</div>
+	<div class="main">
+		<h1 style="text-decoration: underline;">Getting Started</h1>
+		<pre style="line-height: 25px">
+We installed vim so now we can start.
+First, go ahead and open vim by typing "vim" in your terminal.
+Right after you open vim, you may see a screen that looks something like this:
+<img src="assets/pic1.png" width="1500">
+Let's first analyse this image before diving in.
+First there is some infomation about vim in the middle of the screen,
+and some infomation about where we are in the file near the bottom right.
+Ignore the "All" in the very corner. Now do you notice something weird?
+There are many tilda signs in the left side of the screen.
+Those tilda signs are for indicating that those lines are not part of the text.
+This is useful when you wanna know whether some lines are actually the part of the file.
+		</pre>
+	</div>
+</body>
+</html>

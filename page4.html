@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+	<title>Vim For Noobs | The Normal Mode</title>
+	<style type="text/css">
+		*{
+			font-family: "JetBrains Mono";
+		}
+		.sidebar{
+			background-color: orangered;
+			position: fixed;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			width: 360px;
+			padding-left: 10px;
+		}
+		.sidebar *{
+			font-size: 25px;
+			color: white;
+		}
+		body{
+			background-color: black;
+		}
+		.main{
+			margin-left: 380px;
+		}
+		.main *{
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<div class="sidebar">
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="page1.html">Installation</a></li>
+			<li><a href="page2.html">Getting Started</a></li>
+			<li><a href="page3.html">Vim Modes</a></li>
+			<li>The Normal Mode <-</li>
+			<li><a href="page5.html">The Insert Mode</a></li>
+			<li><a href="page6.html">The Command Mode</a></li>
+			<li><a href="page7.html">The Visual Mode</a></li>
+		</ul>
+	</div>
+	<div class="main">
+		<h1 style="text-decoration: underline;">The Normal Mode</h1>
+		<pre style="line-height: 25px">
+In the previous lession, we discussed about the different modes.
+So in this lession, we will dicuss about the normal mode.
+But before diving in, let's see what is the Normal Mode.
+
+<h3 style="text-decoration: underline; ">What is Normal Mode?</h3>Normal mode is the most important mode in vim.
+It is the mode we need to be in to switch to other modes.
+When we first open up vim, this is the mode we are in by default.
+
+<h3 style="text-decoration: underline;">Commands in the Normal Mode</h3>Now each mode has its own set of Commands/Key-Bindings.
+But here we will discuss about the most commonly used Commands/Key-Bindings in the normal mode.
+Here is the list of commands that we will be covering:
+<ul style="margin: 0; line-height: 10px;">
+	<li>dd</li>
+	<li>u</li>
+	<li>yy</li>
+	<li>D</li>
+	<li>S</li>
+	<li>ZZ</li>
+	<li>caw</li>
+	<li>daw</li>
+	<li>q&lt;nm&gt;</li>
+	<li>&lt;n&gt;&lt;c&gt;</li>
+</ul>
+We will go over all of these commands one by one.
+
+<h3 style="text-decoration: underline;">Command: dd</h3>This command is used for deleting the line our cursor is currently at!
+For example, let's say we had a file with the following content ("&lt;c&gt;" indicates our cursor):
+"
+I 
+dummsadfsadt&lt;c&gt;
+Love
+Mechanical
+Keyboards
+".
+Now the line our cursor is at has to be removed to form a meaningful sentence.
+For that we can just do "dd" to delete that whole line instead of smashing the backspace key!
+</pre>
+	</div>
+</body>
+</html>
