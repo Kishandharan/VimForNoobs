@@ -73,6 +73,7 @@ Here is the list of commands that we will be covering:
 	<li>&lt;n&gt;&lt;c&gt;</li>
 </ul>
 We will go over all of these commands one by one.
+Note: CASE SENSITIVITY IS VERY IMPORTANT IN VIM, SO PAY ATTENTION TO IT!
 
 <h3 style="text-decoration: underline;">Command: dd</h3>This command is used for deleting the line our cursor is currently at!
 For example, let's say we had a file with the following content ("&lt;c&gt;" indicates our cursor):
@@ -104,6 +105,11 @@ some random content
 sdlfjljsdf
 ".
 Now to copy this whole line we can just do yy.
+
+<h3 style="text-decoration: underline;">Command: D</h3>This command is very similar to the dd command, but the key difference is that dd deletes the whole current line no matter where we are in the line.
+But D deletes only till the end of the line, from where our cursor is in the current line.
+For example in the line "this is my songzozoz", if our cursor was in the first occurrence of the letter z,
+we can do D to delete the text "zozoz" to form a meaningful sentence.
 </pre>
 	</div>
 </body>
