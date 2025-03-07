@@ -66,10 +66,8 @@ Here is the list of commands that we will be covering:
 	<li>yy</li>
 	<li>D</li>
 	<li>S</li>
-	<li>ZZ</li>
 	<li>caw</li>
 	<li>daw</li>
-	<li>q&lt;nm&gt;</li>
 	<li>&lt;n&gt;&lt;c&gt;</li>
 </ul>
 We will go over all of these commands one by one.
@@ -112,10 +110,16 @@ For example in the line "this is my songzozoz", if our cursor was in the first o
 we can do D to delete the text "zozoz" to form a meaningful sentence.
 
 <h3 style="text-decoration: underline;">Command: S</h3>This command is very similar to the dd command, 
-except S enters the insert mode after deleting the line while dd doesn't.
+except S enters the insert mode after deletding the line while dd doesn't.
 (Didn't find an example for this one because we did not cover the insert mode yet🤣🤣!)
 
+<h3 style="text-decoration: underline;">Command: caw</h3>This command is used to delete a word we are currently in and then get into the insert mode.
+(Didn't find an example for this one too because we did not cover the insert mode yet🤷‍♂️!)
 
+<h3 style="text-decoration: underline;">Command: daw</h3>This command is also used to delete a word, 
+but the difference is that the caw command gets us into the insert mode after deleting a word, while this command doesn't.
+For example, in this line(&lt;cursor&gt; indicates out cursor position) "Vim is asjdfk&lt;cursor&gt;lajsdfkl superior",
+To remove the word our cursor is currently in, we can just do daw instead of doing it manually. 
 </pre>
 	</div>
 </body>
